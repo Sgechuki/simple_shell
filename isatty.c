@@ -12,6 +12,8 @@ void _isatty(int *mode)
 	{
 		*mode = 0;
 	}
-	else
-		write(STDOUT_FILENO, "\033[0;32msimple_shell\033[0;37m:$ ", 30);
+	/**
+	* else
+	*	write(STDOUT_FILENO, "\033[0;32msimple_shell\033[0;37m:$ ", 30);
+	*/
 }
